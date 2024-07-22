@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Figtree", sans-serif;
+    border: none;
+}
+
+.container {
+
+    border: 1px solid #cccccc;
+
+    background-color: #e5e5e5;
+
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+
+    border-radius: 20px;
+
+    position: absolute;
+
+    top: 55%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+
+    height: fit-content;
+
+}
+
+.keys {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 10px;
+
+    padding: 10px;
+
+    margin:auto;
+
+}
+
+.button {
+
+    height: 60px;
+
+    padding: 5px;
+
+    background-color: #fff;
+
+    border-radius: 3px;
+
+    border: 1px solid #c4c4c4;
+
+    background-color: transparent;
+
+    font-size: 2rem;
+
+    color: #333;
+
+    background-image: linear-gradient(to bottom, #4983ff, #d0defc);
+
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+
+    text-shadow: 0 1px rgba(255,255,255,.4);
+
+    transition: 0.5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #eaeaea;
+}
+
+.operator {
+
+    border-radius: 3px;
+
+    color: #fff;
+
+    font-size: 20px;
+
+    background-color: #fca311;
+
+    transition: 0.5s;
+}
+
+.operator:hover{
+    cursor: pointer;
+    background-color: #d19e06;
+}
+
+.clear {
+    margin-bottom: 12.5px;
+
+    margin-right: 10px;
+
+    background-color: #f0595f;
+
+    border-color: #b0353a;
+
+    color: #fff;
+
+    width: 80px;
+
+    height: 30px;  
+
+    border-radius: 10px;
+
+}
+
+.clear:hover {
+
+    background-color: #f17377;
+
+}
+
+.equal-sign {
+
+    background-color: #25a8e0;
+
+    border: none;
+
+    color: #fff;
+
+}
+
+.equal-sign:hover {
+
+    background-color: #4e9ed4;
+
+}
+
+.res{
+    display: flex;
+    align-items: center;
+}
+
+.screen{
+    background-color:#96b7ff;
+
+    justify-content: left;
+
+    color: black;
+
+    font-size: medium;
+
+    width: 50%;
+
+    height: 30%;
+
+    cursor: text;
+
+    padding: 10px; 
+
+    padding-left: 40%;
+
+    margin: 10px;
+
+    margin-top: 0px;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+}
+
+.zero{
+    border-bottom-left-radius: 10px;
+}
+
+.plus{
+    border-bottom-right-radius: 10px;
+}
+
+.seven{
+    border-top-left-radius: 10px;
+}
+
+.division{
+    border-top-right-radius: 10px;
+}
